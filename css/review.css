@@ -1,0 +1,87 @@
+body {
+    font-family: 'Allerta Stencil';
+    background: #000096;
+    padding: 20px;
+  }
+  
+  h1 {
+    border: 1px solid #ffff00;
+    background: #ffff00;
+    color: #000096;
+    font-size: 38px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  form {
+   
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    
+    padding: 10px;
+    font-size: 16px;
+    width: 98%;
+    
+  }
+  
+  
+  .btn button {
+    margin-left: 43% ;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0082;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+    
+  }
+
+  .btn button:hover{
+    border: 1px solid #ffff00;
+    color: #3132fe;
+    background: #ffff00;
+   transition: .4s;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    display: flex;
+    align-items: center;
+  }
+  
+   li  {
+    margin-left: 10px;
+    
+  }  
+
+  .like{
+    margin-left: 10px;
+    cursor: pointer;
+    color: #66bb6a;
+  }
+
+  .dislike {
+    margin-left: 10px;
+    cursor: pointer;
+    color: red;
+  }
+
+  .delete {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  
+  

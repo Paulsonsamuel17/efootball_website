@@ -1,0 +1,90 @@
+body{
+    background: #000096;
+}
+
+h1{
+    border: 2px solid #ffff00;
+    background: #ffff00;
+    color: #000096;
+    text-align: center;
+    font-family: 'Allerta Stencil';
+    
+}
+
+ul {
+    width: 50%;
+    margin-left: 25%;
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid ;
+    color: #000096;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+    background: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.task {
+    font-weight: bold;
+}
+
+.comments {
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    background: #E6E6E6;
+}
+
+.like-dislike {
+    margin-left: 20px;
+}
+
+.like-dislike .fa-thumbs-down{
+    color: red;
+}
+
+footer p{
+    color: #ffff00;
+    text-align: center;
+}
+
+.feedback{
+    color: #ffff00;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.feedback textarea{
+    border: 2px solid white;
+    width: 100%;
+    
+    
+    
+}
+
+.buttons{
+    margin-left: 35%;
+   
+}
+
+.buttons .btn{
+    border: 1px solid  #ff0082;
+    color:white;
+    background:#ff0082;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 20%;
+}
+
+.buttons .btn:hover{
+    transform: scale(1.2);
+    border: 1px solid #ffff00;
+    color: #3132fe;
+    background: #ffff00;
+   transition: .4s;
+}
